@@ -12,9 +12,36 @@ experiments in conflict
 
 4. I will create a branch called initial, create the html file template with nothing in the body and push that up. Then create the pull request for Mike to merge it in.
 
+    ```html
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                    <title>Document</title>
+            </head>
+            <body>
+            </body>
+        </html>
+    ```
+
 5. After he merges my branch in, Mike will pull that down and create a branch called "paragraphs" add the two paragraphs and push up his branch.
 
+    ```html
+        <div>
+            <p>I want to make a mess of this.</p>
+            <p>I don't even care if we fix it. I just want to see what happens when it breaks.</p>
+        </div>
+    ```
+
 6. While he is making his changes, I will make some changes of my own on a branch called "heading", and add and commit them.
+
+    ```html
+        <h2>This is an experiment</h2>
+    ```
+
+    - Change the first paragraph to say, "I want to screw this up"
 
 7. Mike will then do a git pull origin master to be safe.
 
